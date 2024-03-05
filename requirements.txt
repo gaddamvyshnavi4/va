@@ -1,0 +1,4 @@
+gtts==2.5.1
+playsound==1.2.2
+SpeechRecognition==3.10.1
+pyaudio==0.2.14
