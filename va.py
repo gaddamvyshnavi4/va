@@ -10,6 +10,8 @@ import speech_recognition as sr #pip install SpeechRecognition pip install pyaud
 from time import ctime
 import os
 import uuid
+import smtplib
+
 import webbrowser #to open any websites
 import re #regular expressions  -->to find/search patterns in a string
 
@@ -120,23 +122,3 @@ def virtual_assistant(data):
     except UnboundLocalError:
         print("Timedout")
 respond("Hey Codegnan how are you?") #frst greeting
-listening=True
-while listening==True:
-    data = listen()
-    listening = virtual_assistant(data)
-    
-    
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
